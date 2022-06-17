@@ -1,0 +1,14 @@
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\bin\Debug\net6.0\TaxiBoxAPI.Models.deps.json
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\bin\Debug\net6.0\TaxiBoxAPI.Models.runtimeconfig.json
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\bin\Debug\net6.0\TaxiBoxAPI.Models.dll
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\bin\Debug\net6.0\TaxiBoxAPI.Models.pdb
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.csproj.AssemblyReference.cache
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.AssemblyInfoInputs.cache
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.AssemblyInfo.cs
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.csproj.CoreCompileInputs.cache
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.dll
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\refint\TaxiBoxAPI.Models.dll
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.pdb
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.genruntimeconfig.cache
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\ref\TaxiBoxAPI.Models.dll
