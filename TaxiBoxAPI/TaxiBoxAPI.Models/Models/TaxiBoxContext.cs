@@ -18,7 +18,6 @@ namespace TaxiBoxAPI.Models.Models
 
         public virtual DbSet<Airport> Airports { get; set; } = null!;
         public virtual DbSet<Autogenerateinfo> Autogenerateinfos { get; set; } = null!;
-        public virtual DbSet<Book> Books { get; set; } = null!;
         public virtual DbSet<Cookie> Cookies { get; set; } = null!;
         public virtual DbSet<Counter> Counters { get; set; } = null!;
         public virtual DbSet<Driver> Drivers { get; set; } = null!;
@@ -27,6 +26,7 @@ namespace TaxiBoxAPI.Models.Models
         public virtual DbSet<Job> Jobs { get; set; } = null!;
         public virtual DbSet<JobsNote> JobsNotes { get; set; } = null!;
         public virtual DbSet<JobsOld> JobsOlds { get; set; } = null!;
+        public virtual DbSet<JobsOtherCharge> JobsOtherCharges { get; set; } = null!;
         public virtual DbSet<PaxDetail> PaxDetails { get; set; } = null!;
         public virtual DbSet<Price> Prices { get; set; } = null!;
         public virtual DbSet<Setting> Settings { get; set; } = null!;
@@ -139,24 +139,6 @@ namespace TaxiBoxAPI.Models.Models
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Book>(entity =>
-            {
-                entity.HasNoKey();
-
-                entity.ToTable("Book");
-
-                entity.Property(e => e.AuthorId).HasColumnName("AuthorID");
-
-                entity.Property(e => e.Book1)
-                    .HasMaxLength(10)
-                    .HasColumnName("Book")
-                    .IsFixedLength();
-
-                entity.Property(e => e.Published)
-                    .HasColumnType("datetime")
-                    .HasDefaultValueSql("(getdate())");
-            });
-
             modelBuilder.Entity<Cookie>(entity =>
             {
                 entity.Property(e => e.Id).HasColumnName("ID");
@@ -242,29 +224,15 @@ namespace TaxiBoxAPI.Models.Models
 
             modelBuilder.Entity<DriversStatus>(entity =>
             {
-                entity.HasNoKey();
-
                 entity.ToTable("DriversStatus");
 
-                entity.Property(e => e.Created).HasColumnType("smalldatetime");
-
-                entity.Property(e => e.CreatedBy)
-                    .HasMaxLength(20)
-                    .IsUnicode(false);
+                entity.Property(e => e.Id).HasColumnName("ID");
 
                 entity.Property(e => e.DriverNo).HasMaxLength(10);
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedOnAdd()
-                    .HasColumnName("ID");
-
-                entity.Property(e => e.Location).HasMaxLength(500);
+                entity.Property(e => e.Location).HasMaxLength(10);
 
                 entity.Property(e => e.Status).HasMaxLength(15);
-
-                entity.Property(e => e.Updated).HasColumnType("smalldatetime");
-
-                entity.Property(e => e.UpdatedBy).HasMaxLength(20);
             });
 
             modelBuilder.Entity<FixedPricedJourny>(entity =>
@@ -462,6 +430,11 @@ namespace TaxiBoxAPI.Models.Models
                 entity.Property(e => e.VehicleRequiredId)
                     .HasColumnName("VehicleRequiredID")
                     .HasDefaultValueSql("((1))");
+            });
+
+            modelBuilder.Entity<JobsOtherCharge>(entity =>
+            {
+                entity.Property(e => e.Id).HasColumnName("ID");
             });
 
             modelBuilder.Entity<PaxDetail>(entity =>

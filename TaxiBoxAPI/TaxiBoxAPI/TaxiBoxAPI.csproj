@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>f1c5ed0c-5930-4321-a6ab-79223dc7586b</UserSecretsId>
-    <!--<DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>-->
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>

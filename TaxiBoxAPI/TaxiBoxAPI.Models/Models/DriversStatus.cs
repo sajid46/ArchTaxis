@@ -9,10 +9,5 @@ namespace TaxiBoxAPI.Models.Models
         public string? DriverNo { get; set; }
         public string? Status { get; set; }
         public string? Location { get; set; }
-        public DateTime? Created { get; set; }
-        public string? CreatedBy { get; set; }
-        public DateTime? Updated { get; set; }
-        public byte[]? UpdatedBy { get; set; }
-        public bool? DeletedFlag { get; set; }
     }
 }

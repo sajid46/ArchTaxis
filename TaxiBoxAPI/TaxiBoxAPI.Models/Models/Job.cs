@@ -16,13 +16,10 @@ namespace TaxiBoxAPI.Models.Models
         public string? PaxName { get; set; }
         public string? PaxEmail { get; set; }
         public string? PaxMobileNo { get; set; }
-        public int? NoOfPassengers { get; set; }
+        public short? NoOfPax { get; set; }
         public string? Distance { get; set; }
         public string? DurationMinutes { get; set; }
         public double? Fare { get; set; }
-        public double? MeetandGreetCharges { get; set; }
-        public double? VehicleTypeCharges { get; set; }
-        public double? OtherCharges { get; set; }
         public double? Discount { get; set; }
         public string? JobStatus { get; set; }
         public string? DateTimePickup { get; set; }

@@ -34,7 +34,7 @@ namespace TaxiBoxAPI.Controllers
 
         //https://localhost:7294/api/jobs/delete/5001/true
         [HttpGet]
-        [Route("delete/{id}/{delete}")]
+        [Route("delete/{id}")]
         public bool DeleteJob(int id)
         {
             return this._taxiBoxRepository.DeleteJobAsync(id, true);
