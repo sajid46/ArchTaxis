@@ -3071,6 +3071,19 @@
         "runtime": {
           "bin/placeholder/TaxiBoxAPI.Models.dll": {}
         }
+      },
+      "TaxiBoxAPI.Repositories.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TaxiBoxAPI.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TaxiBoxAPI.Repositories.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaxiBoxAPI.Repositories.Interface.dll": {}
+        }
       }
     }
   },
@@ -9436,11 +9449,17 @@
       "type": "project",
       "path": "../TaxiBoxAPI.Models/TaxiBoxAPI.Models.csproj",
       "msbuildProject": "../TaxiBoxAPI.Models/TaxiBoxAPI.Models.csproj"
+    },
+    "TaxiBoxAPI.Repositories.Interface/1.0.0": {
+      "type": "project",
+      "path": "../TaxiBoxAPI.Repositories.Interface/TaxiBoxAPI.Repositories.Interface.csproj",
+      "msbuildProject": "../TaxiBoxAPI.Repositories.Interface/TaxiBoxAPI.Repositories.Interface.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "TaxiBoxAPI.Models >= 1.0.0"
+      "TaxiBoxAPI.Models >= 1.0.0",
+      "TaxiBoxAPI.Repositories.Interface >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9477,6 +9496,9 @@
           "projectReferences": {
             "C:\\Users\\sajid\\OneDrive\\Projects\\Angular Projects\\Business Projects\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Models\\TaxiBoxAPI.Models.csproj": {
               "projectPath": "C:\\Users\\sajid\\OneDrive\\Projects\\Angular Projects\\Business Projects\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Models\\TaxiBoxAPI.Models.csproj"
+            },
+            "C:\\Users\\sajid\\OneDrive\\Projects\\Angular Projects\\Business Projects\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Repositories.Interface\\TaxiBoxAPI.Repositories.Interface.csproj": {
+              "projectPath": "C:\\Users\\sajid\\OneDrive\\Projects\\Angular Projects\\Business Projects\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Repositories.Interface\\TaxiBoxAPI.Repositories.Interface.csproj"
             }
           }
         }

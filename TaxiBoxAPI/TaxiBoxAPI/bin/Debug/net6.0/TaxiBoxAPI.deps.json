@@ -2294,10 +2294,19 @@
       },
       "TaxiBoxAPI.Repositories/1.0.0": {
         "dependencies": {
-          "TaxiBoxAPI.Models": "1.0.0"
+          "TaxiBoxAPI.Models": "1.0.0",
+          "TaxiBoxAPI.Repositories.Interface": "1.0.0"
         },
         "runtime": {
           "TaxiBoxAPI.Repositories.dll": {}
+        }
+      },
+      "TaxiBoxAPI.Repositories.Interface/1.0.0": {
+        "dependencies": {
+          "TaxiBoxAPI.Models": "1.0.0"
+        },
+        "runtime": {
+          "TaxiBoxAPI.Repositories.Interface.dll": {}
         }
       }
     }
@@ -3567,6 +3576,11 @@
       "sha512": ""
     },
     "TaxiBoxAPI.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaxiBoxAPI.Repositories.Interface/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

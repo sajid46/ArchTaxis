@@ -3179,13 +3179,27 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "TaxiBoxAPI.Models": "1.0.0"
+          "TaxiBoxAPI.Models": "1.0.0",
+          "TaxiBoxAPI.Repositories.Interface": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TaxiBoxAPI.Repositories.dll": {}
         },
         "runtime": {
           "bin/placeholder/TaxiBoxAPI.Repositories.dll": {}
+        }
+      },
+      "TaxiBoxAPI.Repositories.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TaxiBoxAPI.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TaxiBoxAPI.Repositories.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaxiBoxAPI.Repositories.Interface.dll": {}
         }
       }
     }
@@ -9804,6 +9818,11 @@
       "type": "project",
       "path": "../TaxiBoxAPI.Repositories/TaxiBoxAPI.Repositories.csproj",
       "msbuildProject": "../TaxiBoxAPI.Repositories/TaxiBoxAPI.Repositories.csproj"
+    },
+    "TaxiBoxAPI.Repositories.Interface/1.0.0": {
+      "type": "project",
+      "path": "../TaxiBoxAPI.Repositories.Interface/TaxiBoxAPI.Repositories.Interface.csproj",
+      "msbuildProject": "../TaxiBoxAPI.Repositories.Interface/TaxiBoxAPI.Repositories.Interface.csproj"
     }
   },
   "projectFileDependencyGroups": {

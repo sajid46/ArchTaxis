@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TaxiBoxAPI.Models\TaxiBoxAPI.Models.csproj" />
+    <ProjectReference Include="..\TaxiBoxAPI.Repositories.Interface\TaxiBoxAPI.Repositories.Interface.csproj" />
   </ItemGroup>
 
 </Project>

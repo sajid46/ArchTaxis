@@ -24,17 +24,25 @@ namespace TaxiBoxAPI.Controllers
             return await this._taxiBoxRepository.GetJobsAsync();
         }
 
-        //https://localhost:7294/api/jobs/delete/5001
+        //https://localhost:7294/api/jobs/job/5001
         [HttpGet]
-        [Route("logicdelete/{id}")]
+        [Route("job/{id}")]
+        public async Task<Job> GetJob(int id)
+        {
+            return await this._taxiBoxRepository.GetJobAsync(id);
+        }
+
+        //https://localhost:7294/api/jobs/delete/5001/true
+        [HttpGet]
+        [Route("delete/{id}/{delete}")]
         public bool DeleteJob(int id)
         {
-            return this._taxiBoxRepository.DeleteJobAsync(id);
+            return this._taxiBoxRepository.DeleteJobAsync(id, true);
         }
 
         //https://localhost:7294/api/jobs/undodelete/5001
         [HttpGet]
-        [Route("logicdelete/{id}")]
+        [Route("undodelete/{id}")]
         public bool UndoDeleteJob(int id)
         {
             return this._taxiBoxRepository.DeleteJobAsync(id, false);

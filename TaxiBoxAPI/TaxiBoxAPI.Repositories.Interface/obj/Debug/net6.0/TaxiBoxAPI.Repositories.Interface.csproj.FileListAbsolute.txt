@@ -1,0 +1,15 @@
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\obj\Debug\net6.0\TaxiBoxAPI.Repositories.Interface.csproj.AssemblyReference.cache
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\obj\Debug\net6.0\TaxiBoxAPI.Repositories.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\obj\Debug\net6.0\TaxiBoxAPI.Repositories.Interface.AssemblyInfoInputs.cache
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\obj\Debug\net6.0\TaxiBoxAPI.Repositories.Interface.AssemblyInfo.cs
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\obj\Debug\net6.0\TaxiBoxAPI.Repositories.Interface.csproj.CoreCompileInputs.cache
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\bin\Debug\net6.0\TaxiBoxAPI.Repositories.Interface.deps.json
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\bin\Debug\net6.0\TaxiBoxAPI.Repositories.Interface.dll
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\bin\Debug\net6.0\TaxiBoxAPI.Repositories.Interface.pdb
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\bin\Debug\net6.0\TaxiBoxAPI.Models.dll
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\bin\Debug\net6.0\TaxiBoxAPI.Models.pdb
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\obj\Debug\net6.0\TaxiBoxAPI.Repositories.Interface.csproj.CopyComplete
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\obj\Debug\net6.0\TaxiBoxAPI.Repositories.Interface.dll
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\obj\Debug\net6.0\refint\TaxiBoxAPI.Repositories.Interface.dll
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\obj\Debug\net6.0\TaxiBoxAPI.Repositories.Interface.pdb
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Repositories.Interface\obj\Debug\net6.0\ref\TaxiBoxAPI.Repositories.Interface.dll

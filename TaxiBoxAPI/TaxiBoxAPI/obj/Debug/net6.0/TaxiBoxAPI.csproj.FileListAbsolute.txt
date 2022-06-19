@@ -266,3 +266,5 @@ C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\Ta
 C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI\bin\Debug\net6.0\TaxiBoxAPI.Models.pdb
 C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI\bin\Debug\net6.0\TaxiBoxAPI.Repositories.dll
 C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI\bin\Debug\net6.0\TaxiBoxAPI.Repositories.pdb
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI\bin\Debug\net6.0\TaxiBoxAPI.Repositories.Interface.dll
+C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI\bin\Debug\net6.0\TaxiBoxAPI.Repositories.Interface.pdb

@@ -6,6 +6,7 @@ namespace TaxiBoxAPI.Repositories
     {
         Task<IEnumerable<Airport>> GetAirportsAsync();
         Task<IEnumerable<Job>> GetJobsAsync();
+        Task<Job> GetJobAsync(int id);
         bool DeleteJobAsync(int id, bool logicDelete = true);
     }
 }

@@ -31,6 +31,11 @@ namespace TaxiBoxAPI.Repositories
             return await this._context.Airports.ToListAsync();
         }
 
+        public async Task<Job> GetJobAsync(int id)
+        {
+            return await this._context.Jobs.Where(o => o.Id == id).FirstAsync();
+        }
+
         public async Task<IEnumerable<Job>> GetJobsAsync()
         {
             return await this._context.Jobs.ToListAsync();
