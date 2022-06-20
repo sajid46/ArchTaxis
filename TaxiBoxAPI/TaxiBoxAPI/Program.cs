@@ -21,6 +21,19 @@ builder.Services.AddScoped<ITaxiBoxRepository, TaxiBoxRepository>();
 builder.Services.AddDbContext<TaxiBoxContext>();
 builder.Configuration.GetConnectionString("DefaultConnection");
 
+var policyName = "_myAllowSpecificOrigins";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: policyName,
+                      builder =>
+                      {
+                          builder
+                            .WithOrigins("http://localhost:4200") // specifying the allowed origin
+                            .WithMethods("GET") // defining the allowed HTTP method
+                            .AllowAnyHeader(); // allowing any header to be sent
+                      });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,6 +45,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors(policyName);
 app.UseAuthorization();
 
 app.MapControllers();
