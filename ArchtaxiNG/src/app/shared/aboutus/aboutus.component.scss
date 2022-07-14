@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: start;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    .item {
+      width: 100%;
+      margin-left: 0px;
+      // border: 1px solid #d3cbc4;
+      padding: 20px;
+      background-color: #e5ded7;
+      margin: 10px 0px;
+      font-weight: lighter;
+    }
+  }
+}

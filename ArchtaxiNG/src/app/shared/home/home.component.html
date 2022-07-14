@@ -1,0 +1,88 @@
+<div class="overlay"></div>
+<div class="flex-container p-4" >
+  <div class="item" style="z-index: 1">
+    <div class="quote-flex-container">
+      <div class="quote"></div>
+      <app-getquote
+        [ngClass]="IsStickyGetQuote == true ? 'stickyGetQuote' : ''"
+      ></app-getquote>
+    </div>
+
+    <!-- <img class="img-car" src="../../../assets/vehicles/8Seater-removebg-preview.png" alt="Taxi" /> -->
+  </div>
+
+  <div cdBox [bgColor]="'#0c090196'" class="item right-box-welcomemessage">
+    <div class="welcomeMessage" style="z-index: 2">
+      <h1 class="welcome sm-fs-45">Welcome to Airport Transfer Service</h1>
+      <p class="fs- sm-white-color">
+        Book your taxi online using our easy to use template. We are 24-Hours
+        flat-rate service. We work with local taxi drivers. We promise to prvide
+        a competive and most reliable service.
+      </p>
+    </div>
+
+    <div class="services" style="z-index: 2">
+      <div class="sitem">
+        <div class="img-div" @carfade>
+          <img
+            src="../../../assets/vehicles/SaloonCar-removebg-preview.png"
+            alt=""/>
+          <p class="veh-desc p-head">Saloon Car</p>
+          <p class="veh-desc">4 Seaters (Low Car)</p>
+          <p class="veh-desc">2 Large Suitcase</p>
+          <p class="veh-desc">1 Large & 2 Small Suitcase</p>
+        </div>
+      </div>
+      <div class="sitem">
+        <div class="img-div" @carfade>
+          <img
+            src="../../../assets/vehicles/ExecutiveCar1-removebg-preview.png"
+            alt=""
+          />
+          <p class="veh-desc p-head">Executive Car</p>
+          <p class="veh-desc">4 Seaters (Low Car)</p>
+          <p class="veh-desc">2 Large Suitcase</p>
+          <p class="veh-desc">1 Large & 2 Small Suitcase</p>
+        </div>
+      </div>
+      <div class="sitem">
+        <div class="img-div" @carfade>
+          <img
+            src="../../../assets/vehicles/MPVCar1-removebg-preview.png"
+            alt=""
+          />
+          <p class="veh-desc p-head">MPV Vehicle</p>
+          <p class="veh-desc">5-6 Seaters</p>
+          <p class="veh-desc">4-5 Large Suitcase</p>
+          <p class="veh-desc">4 Large & 2 Small Suitcase</p>
+        </div>
+      </div>
+      <div class="sitem">
+        <div class="img-div" @carfade>
+          <img
+            src="../../../assets/vehicles/WC1-removebg-preview.png"
+            alt=""
+          />
+          <p class="veh-desc p-head">
+            <i class="fa fa-wheelchair" aria-hidden="true"></i>
+            Wheelchair Accessible</p>
+            <p class="veh-desc">4 Seaters</p>
+            <p class="veh-desc">6 Large Suitcase</p>
+            <p class="veh-desc">4 Large & 2 Small Suitcase</p>
+        </div>
+      </div>
+      <div class="sitem">
+        <div class="img-div" @carfade>
+          <img
+            src="../../../assets/vehicles/8Seater-removebg-preview.png"
+            alt=""
+          />
+          <p class="veh-desc p-head">Larger Vehicle</p>
+          <p class="veh-desc">8 Seaters</p>
+          <p class="veh-desc">6 Large Suitcase</p>
+          <p class="veh-desc">4 Large & 2 Small Suitcase</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

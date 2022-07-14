@@ -1,0 +1,16 @@
+Drivers
+<div *ngIf="drivers$ | async as drivers">
+  <div class="container">
+    <div class="row">
+    <div class="container">
+      <div *ngFor="let item of drivers">
+        <div class="item" style="background-color: lightgray;">
+          {{ item.pickup }}
+        </div>
+        <div class="item">
+          {{ item.fare }}
+        </div>
+      </div></div>
+    </div>
+  </div>
+</div>

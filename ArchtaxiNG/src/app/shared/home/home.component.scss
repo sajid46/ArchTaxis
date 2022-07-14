@@ -1,0 +1,110 @@
+@import "../../../variables.scss";
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url(../../../assets/airports/airport-taxi-pickup.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  //background-position: 100cm;
+  //background-color: white;
+  height: $containerHeight;
+  z-index: 1;
+
+  .item {
+    height: 280px;
+    align-items: center;
+  }
+
+  .item:first-child {
+    margin-right: 20px;
+    .quote-flex-container {
+      display: flex;
+      flex-direction: column;
+      .quote {
+      }
+    }
+  }
+
+  .item:nth-child(2) {
+    padding: 30px 20px;
+    height: 344px !important;
+    .welcomeMessage {
+      display: flex;
+      flex-direction: column;
+      .welcome {
+        color: #ffffffd9 !important;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgb(33 31 31);
+      }
+      p {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: lighter;
+      }
+    }
+  }
+
+  .right-box-welcomemessage {
+    display: flex;
+    flex-direction: column;
+    //margin-left: -100px;
+    .services {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      .sitem {
+        padding: 10px;
+        height: 150px;
+        margin-right: 10px;
+        background-color: #5c687369;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow: hidden;
+        .img-div {
+          img {
+            height: 60px;
+            width: auto;
+            align-items: center;
+          }
+          span, p {
+            font-weight: lighter;
+            text-align: center;
+            font-size: 10px;
+            line-height: 7px;
+          }
+
+          p {
+            color: rgb(202, 199, 199);
+          }
+          .p-head{
+            color: #ffc107 !important;
+          }
+        }
+      }
+    }
+  }
+
+  img {
+    width: 30vw;
+    justify-items: center;
+  }
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: $containerWidth;
+  z-index: 1;
+  background-image: url("./../../../assets/dot1.jpg");
+  opacity: 0.2;
+  background-repeat: repeat;
+}
+
+.stickyGetQuote {
+  // position: fixed;
+  // top: $stickyGetQuoteTop;
+  // z-index: 3;
+}

@@ -1,0 +1,16 @@
+@import '../../../variables.scss';
+
+.container{
+  width: $containerWidth;
+  padding: $containerPadding;
+  background-color: $footerBG;
+  color: $footerColor;
+
+font-size:  $footerFSize;
+.company
+{
+ font-size:  $footerCompanyFSize;
+}
+
+
+}

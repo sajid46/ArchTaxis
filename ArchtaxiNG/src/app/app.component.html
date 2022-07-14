@@ -1,0 +1,12 @@
+
+<div class="container">
+<app-nav [ngClass]="IsSticky == true ? 'sticky' : ''"></app-nav>
+<div [ngClass]="IsSticky == true ? 'contentSticky' : ''">
+<app-home></app-home>
+<app-aboutus></app-aboutus>
+<app-fleet></app-fleet>
+<!-- <router-outlet></router-outlet> -->
+<app-footer></app-footer>
+</div>
+</div>
+

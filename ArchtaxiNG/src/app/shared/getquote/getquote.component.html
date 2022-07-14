@@ -1,0 +1,90 @@
+<form [formGroup]="getquoteForm" (ngSubmit)="onSubmit()">
+  <div class="flex-container" @fade1>
+    <!-- <div class="item" hidden>
+      <span>
+        From Gatwick Airport <input type="radio" id="fromgatwick"
+      /></span>
+      <span>
+        To Gatwick Airport <input type="radio" id="togatwick"
+      /></span>
+    </div> -->
+
+    <div id="div-pickup" class="item">
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+      <input
+        @fade2
+        id="pickup"
+        type="text"
+        title="Pickup"
+        placeholder="Pickup"
+        formControlName="pickup"
+      />
+      <!-- <select
+        @fade2
+        id="pickup"
+        title="Pickup"
+        placeholder="Pickup"
+        formControlName="pickup"
+      >
+        <option>Gatwick Airport North Terminal</option>
+        <option>Gatwick Airport South Terminal</option>
+        <option>other</option>
+      </select> -->
+    </div>
+
+    <div id="div-destination" class="item">
+      <i class="fa fa-map-marker" aria-hidden="true" @fade2></i>
+      <input
+        type="text"
+        id="dest"
+        title="Destination"
+        placeholder="Destination"
+        formControlName="destination"
+      />
+    </div>
+
+    <div id="div-pickupdate" class="item mb-2">
+      <i class="fa fa-calendar fa-1x" aria-hidden="true" @fade2></i>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <input
+          id="datetimepickup"
+          matInput
+          [matDatepicker]="basicDatepicker"
+          placeholder="Pickup date"
+          formControlName="datetimepickup"
+        />
+        <mat-datepicker-toggle matSuffix [for]="basicDatepicker">
+          <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+        </mat-datepicker-toggle>
+        <mat-datepicker #basicDatepicker></mat-datepicker>
+      </mat-form-field>
+    </div>
+
+    <input id="btn-addstop"
+      @fade2
+      type="button"
+      class="mb-3 sm-raised sm-primary-bg sm-white-color sm-w-150"
+      style="padding: 0px !important"
+      (click)="hideVia()"
+      value="{{ addViaBtnCaption }}"
+    />
+
+    <div id="div-addstop" class="div-via mb-3">
+      <div class="item" *ngIf="IshideVia == true">
+        <i class="fa fa-map-marker" aria-hidden="true" @fade1></i>
+        <input
+          @fade2
+          type="text"
+          id="addstop"
+          title="Add Stop"
+          placeholder="Add Stop"
+          formControlName="addstop"
+        />
+      </div>
+    </div>
+
+    <button mat-raised-button color="primary" class="mt-4">
+      Get Quote and Book
+    </button>
+  </div>
+</form>
