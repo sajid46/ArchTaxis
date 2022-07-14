@@ -17,6 +17,7 @@ namespace TaxiBoxAPI.Controllers
         }
 
         //https://localhost:7294/api/jobs/jobs
+        //https://localhost:5001/api/jobs/jobs
         [HttpGet]
         [Route("jobs")]
         public async Task<IEnumerable<Job>> GetJobs()
@@ -25,6 +26,7 @@ namespace TaxiBoxAPI.Controllers
         }
 
         //https://localhost:7294/api/jobs/job/5001
+        //https://localhost:5001/api/jobs/job/5001
         [HttpGet]
         [Route("job/{id}")]
         public async Task<Job> GetJob(int id)
@@ -32,6 +34,7 @@ namespace TaxiBoxAPI.Controllers
             return await this._taxiBoxRepository.GetJobAsync(id);
         }
 
+        //https://localhost:5001/api/jobs/delete/5001/true
         //https://localhost:7294/api/jobs/delete/5001/true
         [HttpGet]
         [Route("delete/{id}")]
@@ -40,6 +43,7 @@ namespace TaxiBoxAPI.Controllers
             return this._taxiBoxRepository.DeleteJobAsync(id, true);
         }
 
+        //https://localhost:5001/api/jobs/undodelete/5001
         //https://localhost:7294/api/jobs/undodelete/5001
         [HttpGet]
         [Route("undodelete/{id}")]

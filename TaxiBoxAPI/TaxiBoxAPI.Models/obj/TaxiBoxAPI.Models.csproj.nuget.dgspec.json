@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sajid\\OneDrive\\Projects\\Angular Projects\\Business Projects\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Models\\TaxiBoxAPI.Models.csproj": {}
+    "C:\\Projects\\GitHub\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Models\\TaxiBoxAPI.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sajid\\OneDrive\\Projects\\Angular Projects\\Business Projects\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Models\\TaxiBoxAPI.Models.csproj": {
+    "C:\\Projects\\GitHub\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Models\\TaxiBoxAPI.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sajid\\OneDrive\\Projects\\Angular Projects\\Business Projects\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Models\\TaxiBoxAPI.Models.csproj",
+        "projectUniqueName": "C:\\Projects\\GitHub\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Models\\TaxiBoxAPI.Models.csproj",
         "projectName": "TaxiBoxAPI.Models",
-        "projectPath": "C:\\Users\\sajid\\OneDrive\\Projects\\Angular Projects\\Business Projects\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Models\\TaxiBoxAPI.Models.csproj",
+        "projectPath": "C:\\Projects\\GitHub\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Models\\TaxiBoxAPI.Models.csproj",
         "packagesPath": "C:\\Users\\sajid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sajid\\OneDrive\\Projects\\Angular Projects\\Business Projects\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Models\\obj\\",
+        "outputPath": "C:\\Projects\\GitHub\\ArchTaxis\\TaxiBoxAPI\\TaxiBoxAPI.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

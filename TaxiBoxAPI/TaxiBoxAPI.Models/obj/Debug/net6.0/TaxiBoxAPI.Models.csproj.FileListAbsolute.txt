@@ -12,3 +12,17 @@ C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\Ta
 C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.pdb
 C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.genruntimeconfig.cache
 C:\Users\sajid\OneDrive\Projects\Angular Projects\Business Projects\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\ref\TaxiBoxAPI.Models.dll
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\bin\Debug\net6.0\TaxiBoxAPI.Models.deps.json
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\bin\Debug\net6.0\TaxiBoxAPI.Models.runtimeconfig.json
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\bin\Debug\net6.0\TaxiBoxAPI.Models.dll
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\bin\Debug\net6.0\TaxiBoxAPI.Models.pdb
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.csproj.AssemblyReference.cache
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.AssemblyInfoInputs.cache
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.AssemblyInfo.cs
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.dll
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\refint\TaxiBoxAPI.Models.dll
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.pdb
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\TaxiBoxAPI.Models.genruntimeconfig.cache
+C:\Projects\GitHub\ArchTaxis\TaxiBoxAPI\TaxiBoxAPI.Models\obj\Debug\net6.0\ref\TaxiBoxAPI.Models.dll
