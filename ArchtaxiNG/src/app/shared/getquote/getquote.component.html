@@ -1,14 +1,5 @@
 <form [formGroup]="getquoteForm" (ngSubmit)="onSubmit()">
   <div class="flex-container" @fade1>
-    <!-- <div class="item" hidden>
-      <span>
-        From Gatwick Airport <input type="radio" id="fromgatwick"
-      /></span>
-      <span>
-        To Gatwick Airport <input type="radio" id="togatwick"
-      /></span>
-    </div> -->
-
     <div id="div-pickup" class="item">
       <i class="fa fa-map-marker" aria-hidden="true"></i>
       <input
@@ -20,17 +11,6 @@
         placeholder="Pickup"
         formControlName="pickup"
       />
-      <!-- <select
-        @fade2
-        id="pickup"
-        title="Pickup"
-        placeholder="Pickup"
-        formControlName="pickup"
-      >
-        <option>Gatwick Airport North Terminal</option>
-        <option>Gatwick Airport South Terminal</option>
-        <option>other</option>
-      </select> -->
     </div>
 
     <div id="div-destination" class="item">
@@ -115,6 +95,7 @@
       value="{{ addViaBtnCaption }}"
     />
 
+    <div class="div-via bg-transparent">
     <div id="div-addstop" class="div-via mb-3" *ngIf="IshideVia == true" @fade1>
       <div class="item" >
         <i class="fa fa-map-marker" aria-hidden="true" ></i>
@@ -128,6 +109,7 @@
         />
       </div>
     </div>
+  </div>
 
     <button mat-raised-button color="primary" class="mt-4">
       Get Quote and Book

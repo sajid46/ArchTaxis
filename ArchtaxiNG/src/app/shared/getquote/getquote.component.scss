@@ -12,6 +12,19 @@
     background-color: gray;
     margin-bottom: 10px;
 
+    i {
+      position: absolute;
+      margin-left: 6px;
+      margin-top: 8px;
+      color: #cfcac3;
+      z-index: 1;
+      font-size: 17px;
+    }
+
+    .fa-calendar {
+      margin-left: 4px;
+    }
+
     input, .datepickup {
       height: $inputHeight !important;
       height: 34px !important;
@@ -30,23 +43,12 @@
       text-transform: capitalize;
     }
   }
-  i {
-    position: absolute;
-    margin-left: 6px;
-    margin-top: 8px;
-    color: #cfcac3;
-    z-index: 1;
-    font-size: 17px;
-  }
 
-  .fa-calendar {
-    margin-left: 4px;
-  }
 
-  .div-via {
-    padding: 0px;
-    margin-top: -10px;
-  }
+  // .div-via {
+  //   padding: 0px;
+  //   margin-top: -10px;
+  // }
 
   .pickupdate-time-flex-container {
     display: flex;
