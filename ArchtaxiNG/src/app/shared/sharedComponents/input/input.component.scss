@@ -1,0 +1,17 @@
+div{
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding-left: 25px !important;
+  margin-bottom: 10px;
+}
+
+i {
+  position: absolute;
+  margin-left: 6px;
+  margin-top: 11px;
+  color: #cfcac3;
+  z-index: 1;
+}

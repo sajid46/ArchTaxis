@@ -23,66 +23,22 @@
 
     <div class="services" style="z-index: 2">
       <div class="sitem">
-        <div class="img-div" @carfade>
-          <img
-            src="../../../assets/vehicles/SaloonCar-removebg-preview.png"
-            alt=""/>
-          <p class="veh-desc p-head">Saloon Car</p>
-          <p class="veh-desc">4 Seaters (Low Car)</p>
-          <p class="veh-desc">2 Large Suitcase</p>
-          <p class="veh-desc">1 Large & 2 Small Suitcase</p>
-        </div>
+        <app-vehicle class="img-div" vehicleImage={{salooncarImage}} vehicleDesc={{salooncarDesc}} ></app-vehicle>
+      </div>
+      <div class="sitem">
+        <app-vehicle class="img-div" vehicleImage={{executivecarImage}} vehicleDesc={{executivecarDesc}} ></app-vehicle>
+      </div>
+
+      <div class="sitem">
+        <app-vehicle class="img-div"  vehicleImage={{mpvcarImage}} vehicleDesc={{mpvcarDesc}} ></app-vehicle>
+      </div>
+      <div class="sitem">
+        <app-vehicle class="img-div" icon="fa fa-wheelchair"  vehicleImage={{wheelchaircarImage}} vehicleDesc={{wheelchaircarDesc}}  ></app-vehicle>
       </div>
       <div class="sitem">
         <div class="img-div" @carfade>
-          <img
-            src="../../../assets/vehicles/ExecutiveCar1-removebg-preview.png"
-            alt=""
-          />
-          <p class="veh-desc p-head">Executive Car</p>
-          <p class="veh-desc">4 Seaters (Low Car)</p>
-          <p class="veh-desc">2 Large Suitcase</p>
-          <p class="veh-desc">1 Large & 2 Small Suitcase</p>
+          <app-vehicle class="img-div" icon="fa fa-wheelchair"  vehicleImage={{_8seatercarImage}} vehicleDesc={{_8seatercarDesc}}  ></app-vehicle>
         </div>
-      </div>
-      <div class="sitem">
-        <div class="img-div" @carfade>
-          <img
-            src="../../../assets/vehicles/MPVCar1-removebg-preview.png"
-            alt=""
-          />
-          <p class="veh-desc p-head">MPV Vehicle</p>
-          <p class="veh-desc">5-6 Seaters</p>
-          <p class="veh-desc">4-5 Large Suitcase</p>
-          <p class="veh-desc">4 Large & 2 Small Suitcase</p>
-        </div>
-      </div>
-      <div class="sitem">
-        <div class="img-div" @carfade>
-          <img
-            src="../../../assets/vehicles/WC1-removebg-preview.png"
-            alt=""
-          />
-          <p class="veh-desc p-head">
-            <i class="fa fa-wheelchair" aria-hidden="true"></i>
-            Wheelchair Accessible</p>
-            <p class="veh-desc">4 Seaters</p>
-            <p class="veh-desc">6 Large Suitcase</p>
-            <p class="veh-desc">4 Large & 2 Small Suitcase</p>
-        </div>
-      </div>
-      <div class="sitem">
-        <div class="img-div" @carfade>
-          <img
-            src="../../../assets/vehicles/8Seater-removebg-preview.png"
-            alt=""
-          />
-          <p class="veh-desc p-head">Larger Vehicle</p>
-          <p class="veh-desc">8 Seaters</p>
-          <p class="veh-desc">6 Large Suitcase</p>
-          <p class="veh-desc">4 Large & 2 Small Suitcase</p>
-        </div>
-      </div>
     </div>
   </div>
 </div>

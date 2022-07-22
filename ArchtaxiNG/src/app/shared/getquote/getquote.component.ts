@@ -24,6 +24,12 @@ import { SharedService } from '../services/shared.service';
   ],
 })
 export class GetquoteComponent implements OnInit {
+  hours: Array<string> | undefined;
+  minutes: Array<string> | undefined;
+  minuteValue: string | undefined;
+  hourValue: string | undefined;
+  showHours = false;
+  showMinutes = false;
   Ijob!: Ijob;
   IshideVia: boolean | undefined;
   addViaBtnCaption: string | undefined;
@@ -44,7 +50,7 @@ export class GetquoteComponent implements OnInit {
   @ViewChild('timepicker') timepicker: any;
 
   public enableMaskSupport: boolean = true;
-  public maskPlaceholderValue: Object = { hour: 'h', minute: 'm', second: 's' };
+  // public maskPlaceholderValue: Object = { hour: 'h', minutes: 'm', second: 's' };
 
   constructor(private sharedService: SharedService) {}
 
@@ -58,10 +64,45 @@ export class GetquoteComponent implements OnInit {
       destination: new FormControl(null, [Validators.required]),
       addstop: new FormControl(null, [Validators.required]),
       datetimepickup: new FormControl(null, [Validators.required]),
-      datetimepickup2: new FormControl(null, [Validators.required]),
-    });
+      hour: new FormControl(null, [Validators.required]),
+      minute: new FormControl(null, [Validators.required]),
+  });
+
+    this.hours = new Array<string>();
+    this.minutes = new Array<string>();
+    for (let i = 0; i < 24; i++) {
+      this.hours.push(i < 10 ? '0' + i.toString() : i.toString());
+    }
+
+    for (let i = 0; i <= 55; i++) {
+      if(i % 5 == 0)
+      {
+      this.minutes.push(i < 10 ? '0' + i.toString() : i.toString());
+    }
+  }
 
 
+  }
+  showHoursList() {
+    this.showHours = true;
+    this.showMinutes = false;
+  }
+
+  showMinutesList() {
+    this.showMinutes = true;
+    this.showHours = false;
+  }
+
+  getHour(event: any){
+    this.showMinutes = false;
+    this.showHours = false;
+    this.hourValue= event.target.innerHTML;
+  }
+
+  getMinute(event: any){
+    this.showMinutes = false;
+    this.showHours = false;
+this.minuteValue= event.target.innerHTML;
   }
 
   hideVia() {
@@ -80,8 +121,8 @@ export class GetquoteComponent implements OnInit {
     // this.Ijob.PaxMobileNo = this.getquoteForm.controls['paxmobileno'].value;
     // this.Ijob.NoOfPax = this.getquoteForm.controls['noofpax'].value;
     // this.Ijob.Distance = this.getquoteForm.controls['distance'].value;
-    // this.Ijob.DurationMinutes =
-    //   this.getquoteForm.controls['durationminutes'].value;
+    // this.Ijob.Durationminutess =
+    //   this.getquoteForm.controls['durationminutess'].value;
     // this.Ijob.Fare = this.getquoteForm.controls['fare'].value;
     // this.Ijob.Discount = this.getquoteForm.controls['discount'].value;
     // this.Ijob.JobStatus = this.getquoteForm.controls['jobstatus'].value;

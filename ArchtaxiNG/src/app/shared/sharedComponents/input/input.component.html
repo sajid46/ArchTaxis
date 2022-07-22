@@ -1,0 +1,11 @@
+<label class="label" for={{sm_inputId}} *ngIf="sm_inputLabelDesc !== ''">{{sm_inputLabelDesc}}</label>
+<div id="div-{{sm_divDesc}}" >
+  <i class={{sm_icon}} *ngIf="sm_icon !== ''" aria-hidden="true" ></i>
+  <input
+    type={{sm_inputType}}
+    id={{sm_inputId}}
+    title={{sm_inputTitle}}
+    placeholder={{sm_inputPlaceholder}}
+  />
+</div>
+

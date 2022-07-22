@@ -19,6 +19,8 @@ import { MAT_DATE_FORMATS } from '@angular/material/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FleetComponent } from './shared/fleet/fleet.component';
 import { BoxDirective } from './shared/directive/box.directive';
+import { VehicleComponent } from './shared/sharedComponents/vehicle/vehicle.component';
+import { InputComponent } from './shared/sharedComponents/input/input.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -49,7 +51,9 @@ export const MY_DATE_FORMATS = {
     HomeComponent,
     GetquoteComponent,
     FleetComponent,
-    BoxDirective],
+    BoxDirective,
+    VehicleComponent,
+    InputComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
