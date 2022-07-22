@@ -49,6 +49,21 @@ export class HomeComponent implements OnInit {
   bgcolor!: string;
   setTimer$: Observable<any> | undefined;
 
+  salooncarImage= "../../../assets/vehicles/SaloonCar-removebg-preview.png";
+  salooncarDesc= "Saloon Car|4 Seaters (Low Car)|2 Large Suitcase|1 Large & 2 Small Suitcase";
+
+  executivecarImage= "../../../assets/vehicles/SaloonCar-removebg-preview.png";
+  executivecarDesc= "Executive Car|4 Seaters (Low Car)|2 Large Suitcase|1 Large & 2 Small Suitcase";
+
+  mpvcarImage= "../../../assets/vehicles/MPVCar1-removebg-preview.png";
+  mpvcarDesc= "MPV Vehicle|5-6 Seaters|4-5 Large Suitcase|4 Large & 2 Small Suitcase";
+
+  wheelchaircarImage= "../../../assets/vehicles/WC1-removebg-preview.png";
+  wheelchaircarDesc= "Wheelchair Accessible|4 Seaters|6 Large Suitcase|4 Large & 2 Small Suitcase";
+
+  _8seatercarImage= "../../../assets/vehicles/8Seater-removebg-preview.png";
+  _8seatercarDesc= "Larger Vehicle|8 Seaters|6 Large Suitcase|4 Large & 2 Small Suitcase";
+
   constructor() { }
 
   ngOnInit(): void {

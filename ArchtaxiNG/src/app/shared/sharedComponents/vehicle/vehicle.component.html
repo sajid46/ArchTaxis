@@ -1,0 +1,9 @@
+<div class="img-div" @carfade>
+  <img
+    src={{vehicleImage}}
+    alt=""/>
+
+      <p *ngFor="let p of desc; let i = index; " [ngClass]="i==0 ? 'veh-desc p-head': 'veh-desc'">
+        <i *ngIf="icon != '' && i == 0" class={{icon}} aria-hidden="true"></i>
+        {{p}}</p>
+  </div>

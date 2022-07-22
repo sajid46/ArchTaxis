@@ -7,33 +7,105 @@
   background-color: #ffc107;
   width: 400px;
 
+  div {
+    height: $inputHeight;
+    background-color: gray;
+    margin-bottom: 10px;
+
+    i {
+      position: absolute;
+      margin-left: 6px;
+      margin-top: 8px;
+      color: #cfcac3;
+      z-index: 1;
+      font-size: 17px;
+    }
+
+    .fa-calendar {
+      margin-left: 4px;
+    }
+
+    input, .datepickup {
+      height: $inputHeight !important;
+      height: 34px !important;
+      margin: 0px 0px 0px 23px !important;
+    }
+  }
+
   .item {
     display: flex;
     flex-direction: column;
-  }
-  i {
-    position: absolute;
-    margin-left: 6px;
-    margin-top: 11px;
-    color: #cfcac3;
-    z-index: 1;
-  }
-  select {
-    padding-left: 25px !important;
-    margin-bottom: 10px;
-    height: $inputHeight;
-    border: none;
+    #pickup,
+    #dest,
+    #datetimepickup,
+    #addstop {
+      //padding: 0px 22px;
+      text-transform: capitalize;
+    }
   }
 
-  input {
-    padding-left: 25px !important;
-    margin-bottom: 10px;
-  }
 
-  .div-via {
-    height: $inputHeight;
-    padding: 0px;
-    margin-top: -10px;
+  // .div-via {
+  //   padding: 0px;
+  //   margin-top: -10px;
+  // }
+
+  .pickupdate-time-flex-container {
+    display: flex;
+    flex-direction: row;
+    .item {
+      margin-right: 10px;
+      div {
+        margin-top: 0px !important;
+      }
+    }
+
+    .css-pickuptime {
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+      i {
+      }
+      .item {
+        margin-top: 6px;
+        width: 30px;
+        div {
+          background-color: transparent;
+          span {
+            margin-top: 36px;
+            position: absolute;
+            width: 33px;
+            z-index: 1;
+          }
+          input {
+            text-align: center;
+            width: $hourminute-input-width;
+            cursor: pointer;
+            border-left: 1px solid gray !important;
+            :nth-child(2) {
+              border: none !important;
+            }
+          }
+        }
+        .span-hh-mm-dropdown {
+          margin-top: 46px !important;
+          position: absolute !important;
+          margin-left: 0px;
+          width: $hourminute-input-width;
+          z-index: 10;
+          p {
+            margin-top: -11px;
+            text-align: center;
+            cursor: pointer;
+            z-index: 10;
+            background-color: white;
+          }
+        }
+      }
+      .item:nth-child(2) {
+        margin-left: 25px;
+      }
+    }
   }
 }
 

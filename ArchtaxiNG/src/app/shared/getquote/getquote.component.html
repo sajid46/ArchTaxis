@@ -1,66 +1,92 @@
 <form [formGroup]="getquoteForm" (ngSubmit)="onSubmit()">
   <div class="flex-container" @fade1>
-    <!-- <div class="item" hidden>
-      <span>
-        From Gatwick Airport <input type="radio" id="fromgatwick"
-      /></span>
-      <span>
-        To Gatwick Airport <input type="radio" id="togatwick"
-      /></span>
-    </div> -->
-
     <div id="div-pickup" class="item">
       <i class="fa fa-map-marker" aria-hidden="true"></i>
       <input
         @fade2
+        class="pickup"
         id="pickup"
         type="text"
-        title="Pickup"
+        title="Enter complete address"
         placeholder="Pickup"
         formControlName="pickup"
       />
-      <!-- <select
-        @fade2
-        id="pickup"
-        title="Pickup"
-        placeholder="Pickup"
-        formControlName="pickup"
-      >
-        <option>Gatwick Airport North Terminal</option>
-        <option>Gatwick Airport South Terminal</option>
-        <option>other</option>
-      </select> -->
     </div>
 
     <div id="div-destination" class="item">
       <i class="fa fa-map-marker" aria-hidden="true" @fade2></i>
       <input
-        type="text"
+      class="destination"
+      type="text"
         id="dest"
-        title="Destination"
+        title="Enter complete address"
         placeholder="Destination"
         formControlName="destination"
       />
     </div>
 
-    <div id="div-pickupdate" class="item mb-2">
-      <i class="fa fa-calendar fa-1x" aria-hidden="true" @fade2></i>
-      <mat-form-field class="example-full-width" appearance="fill">
-        <input
-          id="datetimepickup"
-          matInput
-          [matDatepicker]="basicDatepicker"
-          placeholder="Pickup date"
-          formControlName="datetimepickup"
-        />
-        <mat-datepicker-toggle matSuffix [for]="basicDatepicker">
-          <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
-        </mat-datepicker-toggle>
-        <mat-datepicker #basicDatepicker></mat-datepicker>
-      </mat-form-field>
-    </div>
+    <section class="pickupdate-time-flex-container">
+      <div id="div-pickupdate" class="item mb-2">
+        <i class="fa fa-calendar fa-1x" aria-hidden="true" @fade2></i>
+        <span class="datepickup">
+        <mat-form-field appearance="fill">
+          <input
+            id="datetimepickup"
+            title="Enter pickup date"
+            matInput
+            [matDatepicker]="basicDatepicker"
+            placeholder="Pickup date"
+            formControlName="datetimepickup"
+          />
+          <mat-datepicker-toggle matSuffix [for]="basicDatepicker">
+            <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+          </mat-datepicker-toggle>
+          <mat-datepicker #basicDatepicker></mat-datepicker>
+        </mat-form-field>
+      </span>
+      </div>
 
-    <input id="btn-addstop"
+      <div id="div-pickuptime" class="item css-pickuptime mb-2 p-0">
+        <i class="fa fa-clock-o fa-1x item" aria-hidden="true" @fade2></i>
+        <div class="item">
+          <div class="p-0 m-0">
+          <input
+              type="text"
+              id="hour"
+              title="hour"
+              placeholder="hh"
+              formControlName="hour"
+              [(ngModel)]="hourValue"
+              (click)="showHoursList()"
+            />
+          </div>
+            <span class="span-hh-mm-dropdown" *ngIf="showHours == true">
+              <p *ngFor="let item of hours" class="p-hours" (click)="getHour($event)">{{ item }}</p>
+            </span>
+        </div>
+
+        <div class="item p-0">
+          <div class="p-0 m-0">
+            <input
+            class="minute-input"
+              type="text"
+              id="minute"
+              title="minute"
+              placeholder="mm"
+              formControlName="minute"
+              (click)="showMinutesList()"
+              [(ngModel)]="minuteValue"
+            />
+          </div>
+          <span class="span-hh-mm-dropdown" *ngIf="showMinutes == true">
+            <p *ngFor="let item of minutes" class="p-minutes" (click)="getMinute($event)">{{ item }}</p>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <input
+      id="btn-addstop"
       @fade2
       type="button"
       class="mb-3 sm-raised sm-primary-bg sm-white-color sm-w-150"
@@ -69,9 +95,10 @@
       value="{{ addViaBtnCaption }}"
     />
 
-    <div id="div-addstop" class="div-via mb-3">
-      <div class="item" *ngIf="IshideVia == true">
-        <i class="fa fa-map-marker" aria-hidden="true" @fade1></i>
+    <div class="div-via bg-transparent">
+    <div id="div-addstop" class="div-via mb-3" *ngIf="IshideVia == true" @fade1>
+      <div class="item" >
+        <i class="fa fa-map-marker" aria-hidden="true" ></i>
         <input
           @fade2
           type="text"
@@ -82,6 +109,7 @@
         />
       </div>
     </div>
+  </div>
 
     <button mat-raised-button color="primary" class="mt-4">
       Get Quote and Book
