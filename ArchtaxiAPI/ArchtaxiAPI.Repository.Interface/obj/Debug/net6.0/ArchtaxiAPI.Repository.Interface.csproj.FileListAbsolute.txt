@@ -1,0 +1,17 @@
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\bin\Debug\net6.0\ArchtaxiAPI.Repository.Interface.deps.json
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\bin\Debug\net6.0\ArchtaxiAPI.Repository.Interface.runtimeconfig.json
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\bin\Debug\net6.0\ArchtaxiAPI.Repository.Interface.dll
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\bin\Debug\net6.0\ArchtaxiAPI.Repository.Interface.pdb
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\obj\Debug\net6.0\ArchtaxiAPI.Repository.Interface.csproj.AssemblyReference.cache
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\obj\Debug\net6.0\ArchtaxiAPI.Repository.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\obj\Debug\net6.0\ArchtaxiAPI.Repository.Interface.AssemblyInfoInputs.cache
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\obj\Debug\net6.0\ArchtaxiAPI.Repository.Interface.AssemblyInfo.cs
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\obj\Debug\net6.0\ArchtaxiAPI.Repository.Interface.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\obj\Debug\net6.0\ArchtaxiAPI.Repository.Interface.dll
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\obj\Debug\net6.0\refint\ArchtaxiAPI.Repository.Interface.dll
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\obj\Debug\net6.0\ArchtaxiAPI.Repository.Interface.pdb
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\obj\Debug\net6.0\ArchtaxiAPI.Repository.Interface.genruntimeconfig.cache
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\obj\Debug\net6.0\ref\ArchtaxiAPI.Repository.Interface.dll
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\bin\Debug\net6.0\ArchtaxiAPI.Models.dll
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\bin\Debug\net6.0\ArchtaxiAPI.Models.pdb
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Repository.Interface\obj\Debug\net6.0\ArchtaxiAPI.Repository.Interface.csproj.CopyComplete

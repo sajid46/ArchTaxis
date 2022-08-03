@@ -1,0 +1,14 @@
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\bin\Debug\net6.0\ArchtaxiAPI.Models.deps.json
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\bin\Debug\net6.0\ArchtaxiAPI.Models.runtimeconfig.json
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\bin\Debug\net6.0\ArchtaxiAPI.Models.dll
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\bin\Debug\net6.0\ArchtaxiAPI.Models.pdb
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\obj\Debug\net6.0\ArchtaxiAPI.Models.csproj.AssemblyReference.cache
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\obj\Debug\net6.0\ArchtaxiAPI.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\obj\Debug\net6.0\ArchtaxiAPI.Models.AssemblyInfoInputs.cache
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\obj\Debug\net6.0\ArchtaxiAPI.Models.AssemblyInfo.cs
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\obj\Debug\net6.0\ArchtaxiAPI.Models.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\obj\Debug\net6.0\ArchtaxiAPI.Models.dll
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\obj\Debug\net6.0\refint\ArchtaxiAPI.Models.dll
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\obj\Debug\net6.0\ArchtaxiAPI.Models.pdb
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\obj\Debug\net6.0\ArchtaxiAPI.Models.genruntimeconfig.cache
+C:\Projects\GitHub\Angular Projects\ArchTaxis\ArchtaxiAPI\ArchtaxiAPI.Models\obj\Debug\net6.0\ref\ArchtaxiAPI.Models.dll

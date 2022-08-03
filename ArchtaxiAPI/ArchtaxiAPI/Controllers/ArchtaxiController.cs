@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ArchtaxiAPI.Models.Models;
+using ArchtaxiAPI.Repository.Interface;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,36 +10,36 @@ namespace ArchtaxiAPI.Controllers
     [ApiController]
     public class ArchtaxiController : ControllerBase
     {
+        private IArchtaxiAPIRepository _archtaxi;
+
+        public ArchtaxiController(IArchtaxiAPIRepository archtaxi)
+        {
+            this._archtaxi = archtaxi;
+        }
+
         // GET: api/<ArchtaxiController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        [Route("getjobs")]
+        public Task<IEnumerable<Job>> GetJobs()
         {
-            return new string[] { "value1", "value2" };
+            return _archtaxi.GetJobs();
         }
 
-        // GET api/<ArchtaxiController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        // GET: api/<ArchtaxiController>
+        [HttpGet]
+        [Route("getjob/{id}")]
+        public Task<Job> GetJob(int id)
         {
-            return "value";
+            return _archtaxi.GetJob(id);
         }
 
-        // POST api/<ArchtaxiController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        // DELETE: api/<ArchtaxiController>
+        [HttpDelete]
+        [Route("deletejob/{id}")]
+        public Task<Job> DeleteJob(int id)
         {
+            return _archtaxi.DeleteJob(id);
         }
 
-        // PUT api/<ArchtaxiController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<ArchtaxiController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }
