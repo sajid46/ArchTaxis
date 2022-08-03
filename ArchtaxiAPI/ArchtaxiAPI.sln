@@ -1,22 +1,48 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchtaxiAPI", "ArchtaxiAPI\ArchtaxiAPI.csproj", "{64A975E2-50DA-4314-B0BB-F162038D8FE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchtaxiAPI", "ArchtaxiAPI\ArchtaxiAPI.csproj", "{64A975E2-50DA-4314-B0BB-F162038D8FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchtaxiAPI.Models", "ArchtaxiAPI.Models\ArchtaxiAPI.Models.csproj", "{EE34F81B-73E0-4B5C-92F9-F687BE6E7EC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchtaxiAPI.Repository", "ArchtaxiAPI.Repository\ArchtaxiAPI.Repository.csproj", "{533EB1BB-7181-4105-8393-1DFF546802D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchtaxiAPI.Repository.Interface", "ArchtaxiAPI.Repository.Interface\ArchtaxiAPI.Repository.Interface.csproj", "{9600C9FF-472A-43B8-97E9-CF3E14B49B6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F42BD8C2-7DCD-4EC6-AC6D-2545ADC45CB7}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{64A975E2-50DA-4314-B0BB-F162038D8FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{64A975E2-50DA-4314-B0BB-F162038D8FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64A975E2-50DA-4314-B0BB-F162038D8FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64A975E2-50DA-4314-B0BB-F162038D8FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE34F81B-73E0-4B5C-92F9-F687BE6E7EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE34F81B-73E0-4B5C-92F9-F687BE6E7EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE34F81B-73E0-4B5C-92F9-F687BE6E7EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE34F81B-73E0-4B5C-92F9-F687BE6E7EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533EB1BB-7181-4105-8393-1DFF546802D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533EB1BB-7181-4105-8393-1DFF546802D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533EB1BB-7181-4105-8393-1DFF546802D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533EB1BB-7181-4105-8393-1DFF546802D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9600C9FF-472A-43B8-97E9-CF3E14B49B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9600C9FF-472A-43B8-97E9-CF3E14B49B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9600C9FF-472A-43B8-97E9-CF3E14B49B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9600C9FF-472A-43B8-97E9-CF3E14B49B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A75E16A8-0E62-4BDA-98C0-D9F58586761C}
 	EndGlobalSection
 EndGlobal
