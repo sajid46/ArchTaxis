@@ -1,25 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32414.318
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchTaxiApi", "archtaxiapi\ArchTaxiApi.csproj", "{FA8C7FDC-4DDB-42FF-9488-D3C9783E346C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchtaxiAPI", "ArchtaxiAPI\ArchtaxiAPI.csproj", "{53518175-7C56-4586-A4E4-B11F372EFAD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FA8C7FDC-4DDB-42FF-9488-D3C9783E346C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA8C7FDC-4DDB-42FF-9488-D3C9783E346C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA8C7FDC-4DDB-42FF-9488-D3C9783E346C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA8C7FDC-4DDB-42FF-9488-D3C9783E346C}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7B7B2A10-7AF0-46F7-AD87-F3325B5A9F5D}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53518175-7C56-4586-A4E4-B11F372EFAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53518175-7C56-4586-A4E4-B11F372EFAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53518175-7C56-4586-A4E4-B11F372EFAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53518175-7C56-4586-A4E4-B11F372EFAD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

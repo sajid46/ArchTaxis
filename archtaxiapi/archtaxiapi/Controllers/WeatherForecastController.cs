@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace archtaxiapi.Controllers;
+namespace ArchtaxiAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]

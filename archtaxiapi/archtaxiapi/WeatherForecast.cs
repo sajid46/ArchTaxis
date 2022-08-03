@@ -1,4 +1,4 @@
-namespace archtaxiapi;
+namespace ArchtaxiAPI;
 
 public class WeatherForecast
 {
