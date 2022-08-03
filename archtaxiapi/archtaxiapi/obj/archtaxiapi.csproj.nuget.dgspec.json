@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\GitHub\\Angular Projects\\ArchTaxis\\archtaxiapi\\archtaxiapi\\archtaxiapi.csproj": {}
+    "C:\\Projects\\GitHub\\Angular Projects\\ArchTaxis\\archtaxiapi\\archtaxiapi\\ArchTaxiApi.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\GitHub\\Angular Projects\\ArchTaxis\\archtaxiapi\\archtaxiapi\\archtaxiapi.csproj": {
+    "C:\\Projects\\GitHub\\Angular Projects\\ArchTaxis\\archtaxiapi\\archtaxiapi\\ArchTaxiApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\GitHub\\Angular Projects\\ArchTaxis\\archtaxiapi\\archtaxiapi\\archtaxiapi.csproj",
-        "projectName": "archtaxiapi",
-        "projectPath": "C:\\Projects\\GitHub\\Angular Projects\\ArchTaxis\\archtaxiapi\\archtaxiapi\\archtaxiapi.csproj",
+        "projectUniqueName": "C:\\Projects\\GitHub\\Angular Projects\\ArchTaxis\\archtaxiapi\\archtaxiapi\\ArchTaxiApi.csproj",
+        "projectName": "ArchTaxiApi",
+        "projectPath": "C:\\Projects\\GitHub\\Angular Projects\\ArchTaxis\\archtaxiapi\\archtaxiapi\\ArchTaxiApi.csproj",
         "packagesPath": "C:\\Users\\sajid\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\GitHub\\Angular Projects\\ArchTaxis\\archtaxiapi\\archtaxiapi\\obj\\",
         "projectStyle": "PackageReference",
