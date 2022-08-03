@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ireLyNF7Zz0iLO72J87q+4ccwShulWHQYE2D3qZYdNI7hyk7Y6AiLPHS+ZdfJ8wSY6/weMI+jGdlb6fplKBMyA==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\GitHub\\Angular Projects\\ArchTaxis\\archtaxiapi\\archtaxiapi\\archtaxiapi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sajid\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\sajid\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\sajid\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\sajid\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\sajid\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\sajid\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
